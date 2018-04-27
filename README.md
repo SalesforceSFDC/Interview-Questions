@@ -13,3 +13,5 @@
      * `List<DataType> listName = new List<DataType>0;`
 * Set - an unordered collection of data of one primitive type or sObject that must have unique value.
      * `Set<DataType> setName = new Set<DataType>();` 
+* Map - an unordered collection of unique keys of one primitive data type and their corresponding values.
+    * `Map<PrimitiveKeyDataType, DataType> mapName = newMap<PrimitiveKeyDataType, DataType>();`
