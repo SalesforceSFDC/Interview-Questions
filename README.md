@@ -18,3 +18,6 @@
 ## Apex Transactions
 * An Apex transaction represents a set of operations that are executed as a single unit.
 * All the DML operations in a transaction either complete successfully, or if an error occurs even in saving a single record, then the entire transaction is rolled back.
+## Batch Apex
+To write a Batch Apex class, your class must imlement the Database.Batchable interface and implement these three methods:
+* 
