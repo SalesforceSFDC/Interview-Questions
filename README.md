@@ -15,3 +15,6 @@
      * `Set<DataType> setName = new Set<DataType>();` 
 * <b>Map</b> - an unordered collection of unique keys of one primitive data type and their corresponding values.
     * `Map<PrimitiveKeyDataType, DataType> mapName = newMap<PrimitiveKeyDataType, DataType>();`
+## Apex Transactions
+* An Apex transaction represents a set of operations that are executed as a single unit.
+* All the DML operations in a transaction either complete successfully, or if an error occurs even in saving a single record, then the entire transaction is rolled back.
