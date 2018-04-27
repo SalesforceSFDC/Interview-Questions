@@ -9,9 +9,9 @@
 * Custom controller is an Apex class that implements all of the logic for a page without leveraging a standard controller.  Custom controllers are associated with Vfp throught the controller attribute.
 
 ## Collections
-* List - an ordered collection of the primitive's data types dignified by an index.  You can have duplicates.
+* <b>List</b> - an ordered collection of the primitive's data types dignified by an index.  You can have duplicates.
      * `List<DataType> listName = new List<DataType>0;`
-* Set - an unordered collection of unique data of one primitive type or sObject that must have unique value. You CANNOT have duplicates.
+* <b>Set</b> - an unordered collection of unique data of one primitive type or sObject that must have unique value. You CANNOT have duplicates.
      * `Set<DataType> setName = new Set<DataType>();` 
-* Map - an unordered collection of unique keys of one primitive data type and their corresponding values.
+* <b>Map</b> - an unordered collection of unique keys of one primitive data type and their corresponding values.
     * `Map<PrimitiveKeyDataType, DataType> mapName = newMap<PrimitiveKeyDataType, DataType>();`
