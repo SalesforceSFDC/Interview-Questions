@@ -9,15 +9,5 @@
 * Custom controller is an Apex class that implements all of the logic for a page without leveraging a standard controller.  Custom controllers are associated with Vfp throught the controller attribute.
 
 ## Collections
-* <b>List</b> - an ordered collection of the primitive's data types dignified by an index.  You can have duplicates.
-     * `List<DataType> listName = new List<DataType>0;`
-* <b>Set</b> - an unordered collection of unique data of one primitive type or sObject that must have unique value. You CANNOT have duplicates.
-     * `Set<DataType> setName = new Set<DataType>();` 
-* <b>Map</b> - an unordered collection of unique keys of one primitive data type and their corresponding values.
-    * `Map<PrimitiveKeyDataType, DataType> mapName = newMap<PrimitiveKeyDataType, DataType>();`
-## Apex Transactions
-* An Apex transaction represents a set of operations that are executed as a single unit.
-* All the DML operations in a transaction either complete successfully, or if an error occurs even in saving a single record, then the entire transaction is rolled back.
-## Batch Apex
-To write a Batch Apex class, your class must imlement the Database.Batchable interface and implement these three methods:
-* 
+* List - an ordered collection of the primitive's data types dignified by an index.
+      `List<DataType> listName = new List<DataType>0;`
