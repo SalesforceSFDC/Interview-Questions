@@ -11,3 +11,5 @@
 ## Collections
 * List - an ordered collection of the primitive's data types dignified by an index.
       `List<DataType> listName = new List<DataType>0;`
+
+## Batch Apex
