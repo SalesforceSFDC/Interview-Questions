@@ -13,3 +13,5 @@
       `List<DataType> listName = new List<DataType>0;`
 
 ## Batch Apex
+* To write a Batch Apex class, your class must implement the Database.Batchable interface and implement these 3 methods:
+      * Start method: Used to collect the records or objects to be passed 
